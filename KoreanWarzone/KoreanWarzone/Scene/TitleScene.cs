@@ -10,12 +10,20 @@ namespace KoreanWarzone.Scene
     {
         public override void Render()
         {
-            
-
+            Console.WriteLine("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
+            Console.WriteLine("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
+            Console.WriteLine("&&&&&&&&&&&&&                    &&&&&&&&&&&&&&&");
+            Console.WriteLine("&&&&&&&&&&&&&                    &&&&&&&&&&&&&&&");
+            Console.WriteLine("&&&&&&&&&&&&&      Seoul DMZ     &&&&&&&&&&&&&&&");
+            Console.WriteLine("&&&&&&&&&&&&&                    &&&&&&&&&&&&&&&");
+            Console.WriteLine("&&&&&&&&&&&&&                    &&&&&&&&&&&&&&&");
+            Console.WriteLine("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
+            Console.WriteLine("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n");
+            Console.WriteLine("Press Any key");
         }
         public override void Input()
         {
-            
+            Console.ReadKey(true);
         }
 
         public override void Update()

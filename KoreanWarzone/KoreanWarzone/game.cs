@@ -18,8 +18,10 @@ namespace KoreanWarzone
 
         public static void Run()
         {
+            Start();
             while (gameOver == false)
             {
+                Console.Clear();
                 curScene.Render();
                 curScene.Input();
                 curScene.Update();
@@ -38,6 +40,8 @@ namespace KoreanWarzone
             // 씬 설정
             sceneDic = new Dictionary<string, BaseScene>();
             sceneDic.Add("Title", new Scene.TitleScene());
+
+            curScene = sceneDic["Title"];
         }
 
         private static void End()
